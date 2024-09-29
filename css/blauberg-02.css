@@ -1,0 +1,677 @@
+@font-face {
+  	font-family: "Roboto-Light";
+  	src: url("Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  	font-family: "Roboto-Bold";
+  	src: url("Roboto/Roboto-Bold.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.container-ventilator,
+.container-ventilator .container-header-ventilator,
+.container-ventilator .container-header-ventilator-block,
+.container-header-ventilator-block-logo .container-header-ventilator-logo,
+.container-ventilator .container-control-plus-design-ventilator,
+
+.container-control-plus-design-ventilator-block .smart-control-ventilator,
+.container-control-plus-design-ventilator-block .innovative-design-ventilator,
+
+.container-ventilator .installation-options-ventilator,
+.container-ventilator .construction-ventilator,
+.container-ventilator .practical-design-ventilator,
+.container-ventilator .color-options-ventilator,
+.container-ventilator .smart-sensors-ventilator,
+.container-ventilator .operating-mode-ventilator,
+.container-ventilator .footer-ventilator,
+
+.installation-options-ventilator-block-img .installation-options-ventilator-img,
+.construction-ventilator-block-img .construction-ventilator-img,
+.practical-design-ventilator-block-img .practical-design-ventilator-img,
+
+.installation-options-ventilator-block .installation-options-ventilator-block-img, 
+.construction-ventilator-block .construction-ventilator-block-img,
+.practical-design-ventilator-block .practical-design-ventilator-block-img,
+
+.color-options-ventilator-block .color-options-ventilator-block-img  {
+	min-width: 100px;
+	width: 100%;
+}
+
+div.container-ventilator, 
+.container-ventilator .container-header-ventilator,
+.container-ventilator .container-control-plus-design-ventilator,
+.container-ventilator .installation-options-ventilator,
+.container-ventilator .construction-ventilator,
+.container-ventilator .practical-design-ventilator,
+.container-ventilator .color-options-ventilator,
+.container-ventilator .smart-sensors-ventilator,
+.container-ventilator .operating-mode-ventilator,
+.container-ventilator .footer-ventilator  {
+	display: flex;
+	max-width: 1200px;
+}
+
+
+div.container-ventilator {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f0f0f0;
+	font-family: "Roboto-Light", sans-serif;
+	font-size: 20px;
+}
+
+.container-ventilator .container-header-ventilator, 
+.container-ventilator .container-control-plus-design-ventilator,
+.container-ventilator .installation-options-ventilator,
+.container-ventilator .construction-ventilator,
+.container-ventilator .practical-design-ventilator,
+.container-ventilator .color-options-ventilator,
+.container-ventilator .smart-sensors-ventilator,
+.container-ventilator .operating-mode-ventilator {
+	border-bottom: 1px solid #000;
+}
+
+
+.container-ventilator .container-header-ventilator {
+	background-image: url(../img/V_rich_content_O2_1200_RU.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 710px;
+	justify-content: end;
+}
+
+.container-ventilator .container-header-ventilator-block {
+	display: flex;
+	max-width: 440px;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.container-ventilator .container-header-ventilator-block-logo-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-width: 100px;
+	max-width: 280px;
+	max-height: 500px;
+	height: 100%;
+	margin: 0 20px 0;
+	font-family: "Roboto-Light", sans-serif;
+  font-size: 20px;
+}
+
+.container-header-ventilator-block-logo .container-header-ventilator-logo {
+	min-width: 50px;
+	max-width: 250px;
+}
+
+.container-header-ventilator-block-logo-text .container-header-ventilator-text {
+	font-family: "Roboto-Light", sans-serif;
+	font-size: 26px;
+}
+
+
+
+
+.container-control-plus-design-ventilator .container-control-plus-design-ventilator-block,
+.installation-options-ventilator .installation-options-ventilator-block,
+.construction-ventilator .construction-ventilator-block,
+.practical-design-ventilator .practical-design-ventilator-block,
+.color-options-ventilator .color-options-ventilator-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	min-width: 100px;
+	max-width: 1160px;
+	margin: 0 30px;
+}
+
+.container-control-plus-design-ventilator .container-control-plus-design-ventilator-block {
+	flex-direction: row;
+}
+
+
+.container-control-plus-design-ventilator-block .smart-control-ventilator,
+.container-control-plus-design-ventilator-block .innovative-design-ventilator {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 40px 50px 0;
+	max-width: 560px;
+}
+
+.smart-control-ventilator .smart-control-ventilator-header,
+.innovative-design-ventilator .innovative-design-ventilator-header,
+
+.light-sensor-ventilator .sensor-ventilator-header,
+.humidity-sensor-ventilator .sensor-ventilator-header,
+.timer-ventilator .sensor-ventilator-header,
+.temperature-sensor-ventilator .sensor-ventilator-header,
+.motion-sensor-ventilator .sensor-ventilator-header,
+.mode-left .mode-header,
+.mode-right .mode-header  {
+	font-size: 22px;
+	font-family: "Roboto-Bold", sans-serif;
+}
+
+
+.smart-control-ventilator .smart-control-ventilator-text,
+.innovative-design-ventilator .innovative-design-ventilator-text {
+	margin-top: 30px;
+	font-family: "Roboto-Light", sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+.container-ventilator .installation-options-ventilator,
+.container-ventilator .construction-ventilator,
+.container-ventilator .construction-ventilator,
+.container-ventilator .practical-design-ventilator {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 620px;
+}
+
+
+.installation-options-ventilator .installation-options-ventilator-block,
+.construction-ventilator .construction-ventilator-block,
+.practical-design-ventilator .practical-design-ventilator-block,
+.color-options-ventilator .color-options-ventilator-block {
+	align-items: center;
+}
+
+.installation-options-ventilator-block .installation-options-ventilator-block-img,
+.practical-design-ventilator-block .practical-design-ventilator-block-img {
+	margin-right: 40px;
+}
+
+.construction-ventilator-block .construction-ventilator-block-img {
+	margin-left: 40px;
+}
+
+.installation-options-ventilator-block .installation-options-ventilator-block-img, 
+.construction-ventilator-block .construction-ventilator-block-img,
+.practical-design-ventilator-block .practical-design-ventilator-block-img,
+.color-options-ventilator-block .color-options-ventilator-block-img {
+	min-width: 535px;
+}
+
+.installation-options-ventilator-block-img .installation-options-ventilator-img,
+.construction-ventilator-block-img .onstruction-ventilator-img,
+.practical-design-ventilator-block-img .practical-design-ventilator-img {
+	border-radius: 10px;
+}
+
+.installation-options-ventilator-block .installation-options-ventilator-text,
+.practical-design-ventilator-block-text .practical-design-ventilator-text {
+	padding-right: 30px;
+	
+}
+
+
+.installation-options-ventilator-block-header .installation-options-ventilator-header,
+.construction-ventilator-block-text .construction-ventilator-header,
+.practical-design-ventilator-block-header .practical-design-ventilator-header,
+.color-options-ventilator-block-text .color-options-ventilator-header,
+.smart-sensors-ventilator-block-header .smart-sensors-ventilator-header,
+.operating-mode-ventilator-block .operating-mode-ventilator-header {
+	font-family: "Roboto-Light", sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.installation-options-ventilator-block-text .installation-options-ventilator-text,
+.construction-ventilator-block-text .construction-ventilator-text,
+.practical-design-ventilator-block-text .practical-design-ventilator-text,
+.color-options-ventilator-block-text .color-options-ventilator-text,
+
+.light-sensor-ventilator .sensor-ventilator-text,
+.humidity-sensor-ventilator .sensor-ventilator-text,
+.timer-ventilator .sensor-ventilator-text,
+.temperature-sensor-ventilator .sensor-ventilator-text,
+.motion-sensor-ventilator .sensor-ventilator-text,
+.operating-mode-ventilator-block .operating-mode-ventilator-header-text,
+.mode-left .mode-text,
+.mode-right .mode-text {
+	margin-top: 30px;
+	font-family: "Roboto-Light", sans-serif;
+  font-size: 20px;
+}
+
+
+
+.color-options-ventilator {
+	background: #9acef3;
+	min-height: 280px;
+}
+
+.color-options-ventilator-block .color-options-ventilator-block-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.color-options-ventilator-block-img .color-options-ventilator-block-img-line {
+	display: inline;
+	height: 200px;
+	margin: 10px;
+	border-right: 2px solid #000;
+}
+
+
+
+.color-options-ventilator-block-white  .color-options-ventilator-block-white-img,
+.color-options-ventilator-block-black .color-options-ventilator-block-black-img {
+	min-width: 50px;
+	width: 100%;
+}
+
+
+
+.color-options-ventilator-block-white  .color-options-ventilator-block-white-img {
+	animation: circle-forward  20s linear infinite running;
+}
+
+.color-options-ventilator-block-black .color-options-ventilator-block-black-img {
+	animation: circle-back  20s linear infinite running;
+}
+
+@keyframes circle-forward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle-back {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+
+.smart-sensors-ventilator .smart-sensors-ventilator-block,
+.operating-mode-ventilator .operating-mode-ventilator-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 100px;
+	max-width: 1160px;
+	margin: 50px 30px 30px 30px;
+}
+
+.smart-sensors-ventilator-block .sensors-ventilator,
+.operating-mode-ventilator-block .mode-ventilator {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+
+.sensors-ventilator .sensors-ventilator-left,
+.sensors-ventilator .sensors-ventilator-right,
+.mode-ventilator .mode-ventilator-left,
+.mode-ventilator .mode-ventilator-right {
+	max-width: 530px;
+}
+
+
+.sensors-ventilator .sensors-ventilator-left,
+.mode-ventilator .mode-ventilator-left {
+	margin-right: 40px;
+}
+
+.sensors-ventilator-left .light-sensor-ventilator,
+.sensors-ventilator-left .humidity-sensor-ventilator,
+.sensors-ventilator-right .timer-ventilator,
+.sensors-ventilator-right .temperature-sensor-ventilator,
+.sensors-ventilator-right .motion-sensor-ventilator,
+
+.mode-ventilator-left .mode-left,
+.mode-ventilator-right .mode-right {
+	margin-top: 45px;
+}
+
+.mode-left .sensor-ventilator-icon,
+.mode-right .sensor-ventilator-icon {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.sensor-ventilator-icon img {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+.footer-ventilator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background: #d0d0d0;
+}
+
+.logo-footer .logo-footer-img {
+	min-width: 50px;
+	max-width: 206px;
+	width: 100%;
+}
+
+
+
+
+@media all and (max-width:1000px) {
+
+	.installation-options-ventilator .installation-options-ventilator-block,
+	.construction-ventilator .construction-ventilator-block,
+	.practical-design-ventilator .practical-design-ventilator-block,
+	.color-options-ventilator .color-options-ventilator-block {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.installation-options-ventilator-block .installation-options-ventilator-block-img,
+	.practical-design-ventilator-block .practical-design-ventilator-block-img {
+		margin-right: 0px;
+	}
+
+	.construction-ventilator .construction-ventilator-block {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.construction-ventilator-block .construction-ventilator-block-img {
+		margin-left: 0px;
+	}
+
+	.installation-options-ventilator-block .installation-options-ventilator-block-img, 
+	.construction-ventilator-block .construction-ventilator-block-img,
+	.practical-design-ventilator-block .practical-design-ventilator-block-img,
+	.color-options-ventilator-block .color-options-ventilator-block-img {
+		min-width: 100px;
+	}
+
+	.installation-options-ventilator-block .installation-options-ventilator-text,
+	.practical-design-ventilator-block-text .practical-design-ventilator-text {
+		padding-right: 0px;
+	}
+
+	.construction-ventilator-block-text .construction-ventilator-text {
+		padding-left: 0px;
+	}
+
+	.installation-options-ventilator-block-text .installation-options-ventilator-block-header, 
+	.construction-ventilator-block-text .construction-ventilator-header, 
+	.practical-design-ventilator-block-text .practical-design-ventilator-block-header {
+		margin-top: 40px;
+	}
+
+	.installation-options-ventilator-block-text .installation-options-ventilator-block-header, 
+	.construction-ventilator-block-text .construction-ventilator-header,
+	.practical-design-ventilator-block-text .practical-design-ventilator-block-header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.installation-options-ventilator-block-header .installation-options-ventilator-header-left,
+	.practical-design-ventilator-block-header .practical-design-ventilator-header-left {
+		margin-right: 15px;
+	}
+
+
+
+	.container-control-plus-design-ventilator .container-control-plus-design-ventilator-block,
+	.installation-options-ventilator .installation-options-ventilator-block,
+	.construction-ventilator .construction-ventilator-block,
+	.practical-design-ventilator .practical-design-ventilator-block,
+	.color-options-ventilator .color-options-ventilator-block,
+	.smart-sensors-ventilator .smart-sensors-ventilator-block,
+	.operating-mode-ventilator .operating-mode-ventilator-block {
+		margin: 20px;
+	}
+
+
+
+	.color-options-ventilator-block .color-options-ventilator-block-text {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+
+
+	.smart-sensors-ventilator-block .sensors-ventilator,
+	.operating-mode-ventilator-block .mode-ventilator  {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sensors-ventilator .sensors-ventilator-left,
+	.sensors-ventilator .sensors-ventilator-right,
+	.mode-ventilator .mode-ventilator-left,
+	.mode-ventilator .mode-ventilator-right  {
+		max-width: 1160px;
+	}
+
+	.sensors-ventilator .sensors-ventilator-left,
+	.mode-ventilator .mode-ventilator-left {
+		margin-right: 0px;
+	}
+
+
+}
+
+
+
+@media all and (max-width:800px) {
+
+	.container-ventilator .container-header-ventilator {
+		min-height: 300px;
+		justify-content: center;
+	}
+
+
+	.container-ventilator .container-header-ventilator-block {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+
+	.container-ventilator .container-header-ventilator-block-logo-text {
+		justify-content: space-around;
+	}
+
+	.container-header-ventilator-block-logo .container-header-ventilator-logo {
+		max-width: 200px;
+	}
+
+	.container-header-ventilator-block-logo-text .container-header-ventilator-text {
+		font-size: 20px;
+	}
+
+
+
+	.container-control-plus-design-ventilator .container-control-plus-design-ventilator-block {
+		flex-direction: column;
+	}
+
+	.container-control-plus-design-ventilator-block .smart-control-ventilator {
+		margin-right: 0;
+	}
+
+
+	.container-control-plus-design-ventilator-block .innovative-design-ventilator {
+		margin: 0 0 20px 0;
+	}
+
+	.container-control-plus-design-ventilator-block .smart-control-ventilator,
+	.container-control-plus-design-ventilator-block .innovative-design-ventilator {
+		max-width: 1160px;
+	}
+
+	.smart-control-ventilator .smart-control-ventilator-header,
+	.innovative-design-ventilator .innovative-design-ventilator-header,
+
+	.light-sensor-ventilator .sensor-ventilator-header,
+	.humidity-sensor-ventilator .sensor-ventilator-header,
+	.timer-ventilator .sensor-ventilator-header,
+	.temperature-sensor-ventilator .sensor-ventilator-header,
+	.motion-sensor-ventilator .sensor-ventilator-header,
+	.mode-left .mode-header,
+	.mode-right .mode-header {
+		font-size: 20px;
+	}
+
+	.smart-control-ventilator .smart-control-ventilator-text,
+	.innovative-design-ventilator .innovative-design-ventilator-text,
+	.installation-options-ventilator-block-text .installation-options-ventilator-text,
+	.construction-ventilator-block-text .construction-ventilator-text,
+	.practical-design-ventilator-block-text .practical-design-ventilator-text,
+	.color-options-ventilator-block-text .color-options-ventilator-text,
+
+	.light-sensor-ventilator .sensor-ventilator-text,
+	.humidity-sensor-ventilator .sensor-ventilator-text,
+	.timer-ventilator .sensor-ventilator-text,
+	.temperature-sensor-ventilator .sensor-ventilator-text,
+	.motion-sensor-ventilator .sensor-ventilator-text,
+	.operating-mode-ventilator-block .operating-mode-ventilator-header-text,
+	.mode-left .mode-text,
+	.mode-right .mode-text {
+		font-size: 18px;
+		margin-top: 30px;
+	}
+
+
+
+	.installation-options-ventilator-block-header .installation-options-ventilator-header,
+	.construction-ventilator-block-text .construction-ventilator-header,
+	.practical-design-ventilator-block-header .practical-design-ventilator-header,
+	.color-options-ventilator-block-text .color-options-ventilator-header,
+	.smart-sensors-ventilator-block-header .smart-sensors-ventilator-header,
+	.operating-mode-ventilator-block .operating-mode-ventilator-header {
+		font-size: 28px;
+	}
+
+
+	.logo-footer .logo-footer-img {
+		max-width: 150px;
+	}
+
+
+}
+
+
+ @media all and (max-width:400px){
+
+	.color-options-ventilator-block-img .color-options-ventilator-block-img-line {	
+		height: 100px;
+	}
+
+
+	.sensors-ventilator-left .light-sensor-ventilator,
+	.sensors-ventilator-left .humidity-sensor-ventilator,
+	.sensors-ventilator-right .timer-ventilator,
+	.sensors-ventilator-right .temperature-sensor-ventilator,
+	.sensors-ventilator-right .motion-sensor-ventilator,
+	.mode-ventilator-left .mode-left,
+	.mode-ventilator-right .mode-right  {
+		margin-top: 30px;
+	}
+
+ }
+
+
+@media all and (max-width:300px) {
+
+	.container-header-ventilator-block-logo-text .container-header-ventilator-text {
+		font-size: 18px;
+	}
+
+
+
+	.container-control-plus-design-ventilator-block .smart-control-ventilator {
+		margin-bottom: 30px;
+	}
+
+	.smart-control-ventilator .smart-control-ventilator-header,
+	.innovative-design-ventilator .innovative-design-ventilator-header,
+	.installation-options-ventilator-block-header .installation-options-ventilator-header,
+	.construction-ventilator-block-text .construction-ventilator-header,
+	.practical-design-ventilator-block-header .practical-design-ventilator-header,
+	.color-options-ventilator-block-text .color-options-ventilator-header,
+	.smart-sensors-ventilator-block-header .smart-sensors-ventilator-header,
+	.operating-mode-ventilator-block .operating-mode-ventilator-header,
+
+	.light-sensor-ventilator .sensor-ventilator-header,
+	.humidity-sensor-ventilator .sensor-ventilator-header,
+	.timer-ventilator .sensor-ventilator-header,
+	.temperature-sensor-ventilator .sensor-ventilator-header,
+	.motion-sensor-ventilator .sensor-ventilator-header,
+	.mode-left .mode-header,
+	.mode-right .mode-header {
+		font-size: 18px;
+	}
+
+	.smart-control-ventilator .smart-control-ventilator-text,
+	.innovative-design-ventilator .innovative-design-ventilator-text,
+	.installation-options-ventilator-block-text .installation-options-ventilator-text,
+	.construction-ventilator-block-text .construction-ventilator-text,
+	.practical-design-ventilator-block-text .practical-design-ventilator-text,
+	.color-options-ventilator-block-text .color-options-ventilator-text,
+
+	.light-sensor-ventilator .sensor-ventilator-text,
+	.humidity-sensor-ventilator .sensor-ventilator-text,
+	.timer-ventilator .sensor-ventilator-text,
+	.temperature-sensor-ventilator .sensor-ventilator-text,
+	.motion-sensor-ventilator .sensor-ventilator-text,
+	.operating-mode-ventilator-block .operating-mode-ventilator-header-text,
+	.mode-left .mode-text,
+	.mode-right .mode-text {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+
+	.installation-options-ventilator-block-header .installation-options-ventilator-header-left {
+		margin-right: 10px;
+	}
+
+
+	.color-options-ventilator-block-img .color-options-ventilator-block-img-line {	
+		height: 50px;
+	}
+
+
+}
+
